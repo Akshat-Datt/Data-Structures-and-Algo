@@ -60,7 +60,7 @@ struct Node * delVal(struct Node * head, int value){
         q = q->next;
     }
     if(q->data == value) {
-        p->next = q ->next;
+        p->next = q ->next;  
         free(q);
     }
     return head;
