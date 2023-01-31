@@ -94,10 +94,10 @@ int main(){
     cout<<"Stack is empty : "<<isEmpty(s)<<endl;
     cout<<"Stack is full : "<<isFull(s)<<endl;
 
-    // to get elements according to position in the stack, i.e. following LIFO/FILO property, we will use peek function
-
     cout<<"Stack TOP = "<<stackTop(s)<<endl;
     cout<<"Stack BOTTOM = "<<stackBottom(s)<<endl;
+
+    // to get elements according to position in the stack, i.e. following LIFO/FILO property, we will use peek function
 
     for(int j=1; j<=s->top+1; j++){
         cout<<"Value at the position "<<j<<" is : "<<peek(s, j)<<endl;
